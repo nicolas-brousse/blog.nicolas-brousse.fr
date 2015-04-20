@@ -1,0 +1,32 @@
+# Site settings
+title: A Blog
+header-img: assets/img/home-bg.jpg
+email: hello@nicolas-brousse.fr
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://blog.nicolas-brousse.fr"
+twitter_username: nicolas_brousse
+github_username:  nicolas-brousse
+# facebook_username:  IronSummitMedia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+# permalink: pretty
+permalink: /articles/:year-:month-:day-:title
+paginate: 5
+
+timezone: Europe/Paris
+
+gems:
+  # - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+safe: true
+lsi: false
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
