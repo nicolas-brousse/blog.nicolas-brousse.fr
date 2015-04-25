@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Welcome!"
+date:       2015-05-01
+categories: jekyll update
+---
+
+Welcome all,
+
+I introduce you my new blog.
+There is some weeks that I thinked about open a new blog. And I finaly do it.
+
+What articles will talk about?  
+Mainely about web technologies and collaborative work.
+
+First real article soon :)
