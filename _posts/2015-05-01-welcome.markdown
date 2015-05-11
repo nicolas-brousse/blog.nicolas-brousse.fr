@@ -5,12 +5,12 @@ date:       2015-05-01
 categories: jekyll update
 ---
 
-Welcome all,
+Welcome,
 
 I introduce you my new blog.
-There is some weeks that I thinked about open a new blog. And I finaly do it.
+There is some weeks that I thinked about open a new blog. And I finally do it.
 
 What articles will talk about?  
-Mainely about web technologies and collaborative work.
+Mainly about web technologies and collaborative work.
 
 First real article soon :)
