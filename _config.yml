@@ -1,20 +1,20 @@
 # Site settings
-title: A Blog
+title: A developer's blog
 header-img: assets/img/home-bg.jpg
-email: hello@nicolas-brousse.fr
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: ""
+# email: hello@nicolas-brousse.fr
+description: "A developer's blog"
+baseurl: "/"
 url: "http://blog.nicolas-brousse.fr"
 twitter_username: nicolas_brousse
 github_username:  nicolas-brousse
-# facebook_username:  IronSummitMedia
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 # permalink: pretty
 permalink: /articles/:year-:month-:day-:title
-paginate: 5
+paginate: 10
+paginate_path: /page/:num/
 
 timezone: Europe/Paris
 
@@ -30,3 +30,13 @@ lsi: false
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
+
+exclude:
+  - .editorconfig
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - Rakefile
+  - TODO
+  - CNAME
+  - config.ru
