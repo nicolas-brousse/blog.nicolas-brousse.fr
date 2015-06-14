@@ -3,7 +3,7 @@ title: A developer's blog
 header-img: assets/img/home-bg.jpg
 # email: hello@nicolas-brousse.fr
 description: "A developer's blog"
-baseurl: "/"
+baseurl: ""
 url: "http://blog.nicolas-brousse.fr"
 twitter_username: nicolas_brousse
 github_username:  nicolas-brousse
