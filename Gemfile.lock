@@ -22,6 +22,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.8)
     gemoji (2.1.0)
+    git (1.2.8)
     github-pages (37)
       RedCloth (= 4.2.9)
       github-pages-health-check (~> 0.2)
@@ -104,6 +105,7 @@ GEM
     pygments.rb (0.6.1)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (10.4.2)
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -125,5 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  git
   github-pages (= 37)
   json
+  rake

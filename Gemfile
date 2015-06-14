@@ -10,3 +10,6 @@ gem 'github-pages', versions['github-pages']
 # gem 'guard'
 # gem 'guard-jekyll-plus', require: true
 # gem 'guard-livereload'
+
+gem 'git'
+gem 'rake'
