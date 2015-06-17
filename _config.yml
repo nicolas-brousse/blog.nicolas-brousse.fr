@@ -1,12 +1,12 @@
 # Site settings
 title: A developer's blog
-header-img: assets/img/home-bg.jpg
-# email: hello@nicolas-brousse.fr
+header-img: assets/img/pages/home/banner.jpg
 description: "A developer's blog"
 baseurl: ""
 url: "http://blog.nicolas-brousse.fr"
 twitter_username: nicolas_brousse
 github_username:  nicolas-brousse
+linkedin_username: nclbr
 
 # Build settings
 markdown: kramdown
@@ -40,3 +40,4 @@ exclude:
   - TODO
   - CNAME
   - config.ru
+  - tmp/
