@@ -6,7 +6,7 @@ date:   2015-06-19
 header-img: assets/img/posts/freelancer/banner.jpg
 ---
 
-From July month I will start to be full-time freelancer.
+From July I will start to be full-time freelancer.
 
 ## What I will do?
 
@@ -17,7 +17,7 @@ Dedicated backend development with ruby.
 ### › Full website conception and development (as team)
 
 I work with a little team. So we could realised a complete website with design,
-frontend and backend development and also the conception.
+frontend and backend development and also conception.
 
 
 ## My skills and tools
