@@ -1,9 +1,12 @@
 (function() {
-  document.onkeypress = function(e) {
+  document.onkeyup = function(e) {
     e = e || window.event;
 
     if (e.keyCode) {
-      var pager = document.getElementsByClassName('pager')[0];
+      var pager = document.getElementsByClassName('pager');
+      if (pager.length > 0) {
+        pager = pager[0];
+      }
 
       switch (e.keyCode) {
         case 37:

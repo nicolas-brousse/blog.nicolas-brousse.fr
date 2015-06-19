@@ -1,10 +1,13 @@
-source "https://rubygems.org"
-
 require 'json'
 require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+source "https://rubygems.org"
 
-gem 'github-pages', versions['github-pages']
+deps = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+deps.each do |dep, version|
+  gem dep, version unless dep == 'ruby'
+end
+
 # gem 'rack-jekyll'
 
 # gem 'guard'
