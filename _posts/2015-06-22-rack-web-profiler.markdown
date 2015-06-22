@@ -152,7 +152,7 @@ end
 
 ## Conclusion
 
-I my opinion the template file is nicer to management html. At least if the html to generate is big.  
+In my opinion the template file is nicer to management html. At least if the html to generate is big.  
 But have the content into the collector class is simpler because we only have one file.
 
 
