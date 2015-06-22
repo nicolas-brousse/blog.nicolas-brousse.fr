@@ -2,7 +2,7 @@
 /* from http://stackoverflow.com/a/23393920 */
 
 .highlight pre code * {
-  white-space: nowrap;    // this sets all children inside to nowrap
+  /* white-space: nowrap; */    // this sets all children inside to nowrap
 }
 
 .highlight pre {
@@ -13,23 +13,38 @@
   white-space: pre;       // forces <code> to respect <pre> formatting
   display: block;
   overflow-x: auto;
-  word-wrap: normal;
 }
 
-
-.highlight .lineno {
+/* .highlight .lineno {
   color: #ccc;
   display: inline-block;
   padding: 0 5px;
   border-right: 1px solid #ccc;
-}
+} */
 
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com
  */
 
-.highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
+.highlight pre, pre, .highlight .hll {
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 0;
+  padding: 10px 14px;
+  margin: 0 -20px 0 -20px;
+  margin-top: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+  .highlight pre, pre, .highlight .hll {
+    border-width: 0 0 0 8px;
+    border-style: solid;
+    border-color: #404040;
+    margin: 0 0 0 -20px;
+  }
+}
+
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
 .highlight .k { font-weight: bold; }
