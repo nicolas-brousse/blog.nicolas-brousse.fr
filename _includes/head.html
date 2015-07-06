@@ -6,7 +6,7 @@
     <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
-    {% page.type == 'post' %}
+    {% if page.type == 'post' %}
     <meta property="og:type" content="article" />
     {% else %}
     <meta property="og:type" content="website" />
