@@ -1,7 +1,7 @@
 # Site settings
 title: A developer's blog
 header-img: assets/img/pages/home/banner.jpg
-description: "A developer's blog"
+description: "A blog about web technologies and collaborative work."
 baseurl: ""
 url: "http://blog.nicolas-brousse.fr"
 twitter_username: nicolas_brousse
