@@ -27,7 +27,6 @@ frontend and backend development and also conception.
 * Redis
 * REST
 * Background processing (with Sidekiq)
-* Debian
 * Git
 * Mac OSX and Debian
 * ...
