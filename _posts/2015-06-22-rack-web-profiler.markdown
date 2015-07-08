@@ -15,7 +15,7 @@ to create and register their own collector(s).
 
 ## Create a collector
 
-Until now I'm thinking about creating DSL like the examples right after.
+Until now I'm thinking about creating [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) like the examples right after.
 As a lot of libraries and tools, it's a nice way to allow externals extended.
 
 To start prototyping I worked with classic classes. But I guess it's a nice instant to move in a DSL way.
