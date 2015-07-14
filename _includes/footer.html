@@ -49,13 +49,18 @@
     </div>
 </footer>
 
-<!-- jQuery -->
 <script src="{{ "/assets/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Bootstrap Core JavaScript -->
 <script src="{{ "/assets/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ "/assets/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
-
+<script src="{{ "/assets/js/zoom.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/app.js " | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">
+var disqus_shortname = '{{ site.disqus_shortname }}';
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

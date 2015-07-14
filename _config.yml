@@ -8,23 +8,25 @@ twitter_username: nicolas_brousse
 github_username:  nicolas-brousse
 linkedin_username: nclbr
 
+disqus_shortname: blog-nicolas-brousse
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
 # permalink: pretty
-permalink: /articles/:year-:month-:day-:title
+permalink: /articles/:year-:month-:day-:title/
 paginate: 10
 paginate_path: /page/:num/
 
 timezone: Europe/Paris
 
 gems:
-  # - jekyll-mentions
+  - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
 
-safe: true
+# safe: true
 lsi: false
 
 sass:

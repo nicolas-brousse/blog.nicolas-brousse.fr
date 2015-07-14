@@ -47,7 +47,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "vendors/bootstrap",
-        "base",
+        "vendors/zoom.js",
         "clean-blog",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "base"
 ;

@@ -3,7 +3,7 @@ layout: post
 title:  "Now freelancer"
 author: "Nicolas B."
 date:   2015-06-19
-header-img: assets/img/posts/freelancer/banner.jpg
+header-img: assets/img/posts/2015-06-19-freelancer/banner.jpg
 ---
 
 From July I will start to be full-time freelancer.

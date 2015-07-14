@@ -3,7 +3,7 @@ layout: post
 title:  "Rack web profiler"
 author: "Nicolas B."
 date:   2015-06-22
-header-img: assets/img/posts/rack-web-profiler/banner.jpg
+header-img: assets/img/posts/2015-06-22-rack-web-profiler/banner.jpg
 ---
 
 Before I started using Ruby, I coded mostly with PHP. Back then, I worked a lot with Symfony2 and its web profiler.  

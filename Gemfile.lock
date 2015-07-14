@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    activesupport (4.2.2)
+    activesupport (4.2.3)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -19,8 +19,10 @@ GEM
     coffee-script-source (1.9.1.1)
     colorator (0.1)
     execjs (2.5.2)
+    exifr (1.2.3)
     fast-stemmer (1.0.2)
-    ffi (1.9.8)
+    ffi (1.9.10)
+    fspath (2.1.1)
     gemoji (2.1.0)
     git (1.2.9.1)
     github-pages (37)
@@ -50,6 +52,14 @@ GEM
       activesupport (>= 2)
       nokogiri (~> 1.4)
     i18n (0.7.0)
+    image_optim (0.21.0)
+      exifr (~> 1.2, >= 1.2.2)
+      fspath (~> 2.1)
+      image_size (~> 1.3)
+      in_threads (~> 1.3)
+      progress (~> 3.0, >= 3.0.1)
+    image_size (1.4.1)
+    in_threads (1.3.1)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -101,6 +111,7 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
+    progress (3.1.0)
     public_suffix (1.5.1)
     pygments.rb (0.6.1)
       posix-spawn (~> 0.3.6)
@@ -112,8 +123,8 @@ GEM
     rdiscount (2.1.7)
     redcarpet (3.1.2)
     safe_yaml (1.0.4)
-    sass (3.4.14)
-    terminal-table (1.4.5)
+    sass (3.4.15)
+    terminal-table (1.5.2)
     thread_safe (0.3.5)
     timers (4.0.1)
       hitimes
@@ -127,22 +138,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  RedCloth (= 4.2.9)
   git
   github-pages (= 37)
-  jekyll (= 2.4.0)
-  jekyll-coffeescript (= 1.0.1)
-  jekyll-feed (= 0.3.0)
-  jekyll-mentions (= 0.2.1)
-  jekyll-redirect-from (= 0.8.0)
-  jekyll-sass-converter (= 1.2.0)
-  jekyll-sitemap (= 0.8.1)
-  jemoji (= 0.4.0)
+  image_optim (~> 0.11)
   json
-  kramdown (= 1.5.0)
-  liquid (= 2.6.2)
-  maruku (= 0.7.0)
-  pygments.rb (= 0.6.1)
   rake
-  rdiscount (= 2.1.7)
-  redcarpet (= 3.1.2)

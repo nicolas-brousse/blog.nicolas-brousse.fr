@@ -15,7 +15,7 @@ permalink: /
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} — <a href="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}#disqus_thread">0 Comments</a></p>
 </div>
 <hr>
 {% endfor %}

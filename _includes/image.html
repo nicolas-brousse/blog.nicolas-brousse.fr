@@ -1,0 +1,22 @@
+{% if include.link == null %}
+  {% assign include.link = true %}
+{% endif %}
+
+{% assign url = include.url %}
+{% if include.remote == null || include.remote == false %}
+  {% assign url = url | prepend: site.baseurl %}
+{% endif %}
+
+<div class="img-elt">
+{% if include.link == true %}<a href="{{ url }}"{% if include.caption != null %} class="thumbnail"{% endif %}>{% endif %}
+<img src="{{ url }}" alt="{{ include.alt }}" class="img-responsive center-block" data-action="zoom">
+{% if include.link == true %}</a>{% endif %}
+
+{% comment %}
+{% if include.caption != null %}
+<div class="caption">
+<small>{{ include.caption }}</small>
+</div>
+{% endif %}
+{% endcomment %}
+</div>

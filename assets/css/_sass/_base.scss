@@ -1,9 +1,56 @@
+q {
+  &::before {
+    content: '\201C';
+  }
+  &::after {
+    content: '\201D';
+  }
+}
+
+blockquote {
+  p {
+    margin: 0;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+pre {
+  margin-bottom: 30px;
+}
+
+
+.post {
+  h1, h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+}
+
 .comments {
   margin: 20px 0 0;
 }
 
 .sources {
   font-size: 0.8em;
+
+  p {
+    margin: 20px 0 10px;
+  }
+
+  a {
+    text-decoration: underline;
+    // display: inline-block;
+    // white-space: nowrap;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+  }
 }
 
 footer .socials {

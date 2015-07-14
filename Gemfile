@@ -1,18 +1,16 @@
-require 'json'
-require 'open-uri'
+require "json"
+require "open-uri"
 source "https://rubygems.org"
 
-deps = JSON.parse(open('https://pages.github.com/versions.json').read)
+deps = JSON.parse(open("https://pages.github.com/versions.json").read)
+gem "github-pages", deps["github-pages"]
 
-deps.each do |dep, version|
-  gem dep, version unless dep == 'ruby'
-end
+# gem "rack-jekyll"
 
-# gem 'rack-jekyll'
+# gem "guard"
+# gem "guard-jekyll-plus", require: true
+# gem "guard-livereload"
 
-# gem 'guard'
-# gem 'guard-jekyll-plus', require: true
-# gem 'guard-livereload'
-
-gem 'git'
-gem 'rake'
+gem "rake"
+gem "git"
+gem 'image_optim', '~> 0.11'
