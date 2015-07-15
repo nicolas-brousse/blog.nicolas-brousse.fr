@@ -105,6 +105,6 @@ And have separate `db` and `redis` servers. `web` servers only contain the appli
 ## Code sources
 
 If you want to test it, [all the code is available on GitHub](https://github.com/nicolas-brousse/1-sidekiq-separate-servers){:target="_blank"}.  
-After clone or download you only have to install Vagrant (if you haven't yet) and just `vragrant up`.
+After clone or download you only have to install Vagrant (if you haven't yet) and just `vagrant up`.
 
 Have fun :smile:!
