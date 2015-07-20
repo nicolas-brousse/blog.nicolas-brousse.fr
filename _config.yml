@@ -9,6 +9,7 @@ github_username:  nicolas-brousse
 linkedin_username: nclbr
 
 disqus_shortname: blog-nicolas-brousse
+ga_id: UA-23920207-2
 
 # Build settings
 markdown: kramdown
