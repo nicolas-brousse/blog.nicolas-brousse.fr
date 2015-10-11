@@ -1,5 +1,5 @@
 # Site settings
-title: A developer's blog
+title: "A developer's blog"
 header-img: assets/img/pages/home/banner.jpg
 description: "A blog about web technologies and collaborative work."
 baseurl: ""
@@ -36,6 +36,7 @@ sass:
 
 exclude:
   - .editorconfig
+  - .ruby-version
   - Gemfile
   - Gemfile.lock
   - Guardfile
