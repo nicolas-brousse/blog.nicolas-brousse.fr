@@ -7,13 +7,16 @@ url: "http://blog.nicolas-brousse.fr"
 twitter_username: nicolas_brousse
 github_username:  nicolas-brousse
 linkedin_username: nclbr
+# stackexchange_id: 1001474
+# dribbble_username: nicolas-brousse
+# behance_username: nicolas_brousse
 
 disqus_shortname: blog-nicolas-brousse
 ga_id: UA-23920207-2
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+# :highlighter: pygments
 # permalink: pretty
 permalink: /articles/:year-:month-:day-:title/
 paginate: 10
@@ -26,6 +29,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
 
 # safe: true
 lsi: false
@@ -37,6 +41,7 @@ sass:
 exclude:
   - .editorconfig
   - .ruby-version
+  - Brewfile
   - Gemfile
   - Gemfile.lock
   - Guardfile
