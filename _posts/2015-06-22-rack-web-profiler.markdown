@@ -13,9 +13,10 @@ So I decided to create one.
 I'm currently working on it. I mainly would like to provide a nice an simple DSL to allow everybody
 to create and register their own collector(s).
 
+
 ## Create a collector
 
-Until now I'm thinking about creating [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) like the examples right after.
+Until now I'm thinking about creating <abbr title="Domain-Specific Language" class="initialism">DSL</abbr><sup>[1](#note-1)</sup> like the examples right after.
 As a lot of libraries and tools, it's a nice way to allow externals extended.
 
 To start prototyping I worked with classic classes. But I guess it's a nice instant to move in a DSL way.
@@ -157,3 +158,7 @@ But have the content into the collector class is simpler because we only have on
 
 
 I will inform you of the progression.
+
+---
+
+<sup id="note-1">1</sup>: [DSL wikipedia page](https://en.wikipedia.org/wiki/Domain-specific_language)

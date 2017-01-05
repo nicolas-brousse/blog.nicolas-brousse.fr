@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use Let's Encrypt for GitLab"
+title:  "Use Let's Encrypt on GitLab"
 author: "Nicolas B."
 date:   2016-05-30
 header-img: "assets/img/posts/2016-05-30-letsencrypt-on-gitlab/banner.jpg"
